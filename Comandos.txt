@@ -1,0 +1,109 @@
+#borrar.sh
+
+
+samba-tool ou delete 'OU=Alergologia-usuarios,OU=Alergologia'
+samba-tool ou delete 'OU=Enfermeria-usuarios,OU=Enfermeria'
+samba-tool ou delete 'OU=Informatica-usuarios,OU=Informatica'
+samba-tool ou delete 'OU=Comunicacion-Prensa-usuarios,OU=Comunicacion-Prensa'
+
+samba-tool ou delete 'OU=Alergologia-equipos,OU=Alergologia'
+samba-tool ou delete 'OU=Enfermeria-equipos,OU=Enfermeria'
+samba-tool ou delete 'OU=Informatica-equipos,OU=Informatica'
+samba-tool ou delete 'OU=Comunicacion-Prensa-equipos,OU=Comunicacion-Prensa'
+
+samba-tool ou delete 'OU=Alergologia'
+samba-tool ou delete 'OU=Enfermeria'
+samba-tool ou delete 'OU=Informatica'
+samba-tool ou delete 'OU=Comunicacion-Prensa'
+
+#Eliminar grupos
+
+samba-tool group delete GG-Dep-Alergologia
+samba-tool group delete GG-Dep-Enfermeria
+samba-tool group delete GG-Dep-Informatica
+samba-tool group delete GG-Dep-Comunicacion-Prensa
+
+#Eliminar equipos
+
+samba-tool computer delete W10-1-A
+samba-tool computer delete W10-2-A
+samba-tool computer delete W10-3-A
+samba-tool computer delete W10-4-A
+
+samba-tool computer delete W10-5-E
+samba-tool computer delete W10-6-E
+
+samba-tool computer delete W10-7-I
+samba-tool computer delete W10-8-I
+samba-tool computer delete W10-9-I
+samba-tool computer delete W10-10-I
+
+samba-tool computer delete U20-1-CP
+samba-tool computer delete U20-2-CP
+samba-tool computer delete U20-3-CP
+samba-tool computer delete U20-4-CP
+samba-tool computer delete U20-5-CP
+
+
+
+#crear.sh
+#uo
+
+samba-tool ou create 'OU=Alergologia,DC=san-gva,DC=es' --description='Depart>
+samba-tool ou create 'OU=Enfermeria,DC=san-gva,DC=es' --description='Departa>
+samba-tool ou create 'OU=Informatica,DC=san-gva,DC=es' --description='Depart>
+samba-tool ou create 'OU=Comunicacion-Prensa,DC=san-gva,DC=es' --description>
+
+#uo-usuarios
+
+samba-tool ou create 'OU=Alergologia-usuarios,OU=Alergologia,DC=san-gva,DC=e>
+samba-tool ou create 'OU=Enfermeria-usuarios,OU=Enfermeria,DC=san-gva,DC=es'>
+samba-tool ou create 'OU=Informatica-usuarios,OU=Informatica,DC=san-gva,DC=e>
+samba-tool ou create 'OU=Comunicacion-Prensa-usuarios,OU=Comunicacion-Prensa>
+
+
+#uo-equipos
+
+samba-tool ou create 'OU=Alergologia-equipos,OU=Alergologia,DC=san-gva,DC=es>
+samba-tool ou create 'OU=Enfermeria-equipos,OU=Enfermeria,DC=san-gva,DC=es' >
+samba-tool ou create 'OU=Informatica-equipos,OU=Informatica,DC=san-gva,DC=es>
+samba-tool ou create 'OU=Comunicacion-Prensa-equipos,OU=Comunicacion-Prensa,>
+
+#grupos
+samba-tool group add GG-Dep-Alergologia --groupou='ou=Alergologia' --group-t>
+samba-tool group add GG-Dep-Enfermeria --groupou='ou=Enfermeria' --group-typ>
+samba-tool group add GG-Dep-Informatica --groupou='ou=Informatica' --group-t>
+samba-tool group add GG-Dep-Comunicacion-Prensa --groupou='ou=Comunicacion-P>
+
+#equipos
+
+#Alergologia
+
+samba-tool computer create W10-1-A --computerou='OU=Alergologia-equipos,OU=A>
+samba-tool computer create W10-2-A --computerou='OU=Alergologia-equipos,OU=A>
+samba-tool computer create W10-3-A --computerou='OU=Alergologia-equipos,OU=A>
+samba-tool computer create W10-4-A --computerou='OU=Alergologia-equipos,OU=A>
+
+#Enfermeria
+
+samba-tool computer create W10-5-E --computerou='OU=Enfermeria-equipos,OU=En>
+samba-tool computer create W10-6-E --computerou='OU=Enfermeria-equipos,OU=En>
+
+#Informatica
+
+samba-tool computer create W10-7-I --computerou='OU=Informatica-equipos,OU=I>
+samba-tool computer create W10-8-I --computerou='OU=Informatica-equipos,OU=I>
+samba-tool computer create W10-9-I --computerou='OU=Informatica-equipos,OU=I>
+samba-tool computer create W10-10-I --computerou='OU=Informatica-equipos,OU=>
+
+#Comunicion-Prensa
+
+samba-tool computer create U20-1-CP --computerou='OU=Comunicacion-Prensa-equ>
+samba-tool computer create U20-2-CP --computerou='OU=Comunicacion-Prensa-equ>
+samba-tool computer create U20-3-CP --computerou='OU=Comunicacion-Prensa-equ>
+samba-tool computer create U20-4-CP --computerou='OU=Comunicacion-Prensa-equ>
+samba-tool computer create U20-5-CP --computerou='OU=Comunicacion-Prensa-equ>
+
+samba-tool group list
+
+samba-tool computer list

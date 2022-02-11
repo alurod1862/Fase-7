@@ -1,0 +1,15 @@
+LUIS:NAVARRO:LNAVARRO:Alergologia:S:Zsxdcfv10*:S:LNAVARRO@general.san-gva.es:/bin/bash:OU=Alergologia-usuarios,OU=Alergologia:GG-Dep-Alergologia
+SUSANA:ALABAU:SALABAU:Alergologia:S:Zsxdcfv10*:S:SALABAU@general.san-gva.es:/bin/bash:OU=Alergologia-usuarios,OU=Alergologia:GG-Dep-Alergologia
+PEDRO:GOMIS:PGOMIS:Alergologia:S:Zsxdcfv10*:S:PGOMIS@general.san-gva.es:/bin/bash:OU=Alergologia-usuarios,OU=Alergologia:GG-Dep-Alergologia
+PIEDAD:VALENCIA:PVALENCIA:Alergologia:S:Zsxdcfv10*:S:PVALENCIA@general.san-gva.es:/bin/bash:OU=Alergologia-usuarios,OU=Alergologia:GG-Dep-Alergologia
+MANUEL:VARGAS:MVARGAS:Informatica:S:Zsxdcfv10*:S:MVARGAS@general.san-gva.es:/bin/bash:OU=Informatica-usuarios,OU=Informatica:GG-Dep-Informatica
+JAVIER:ARIAS:JARIAS:Informatica:S:Zsxdcfv10*:S:JARIAS@general.san-gva.es:/bin/bash:OU=Informatica-usuarios,OU=Informatica:GG-Dep-Informatica
+EVA:PELLICER:EPELLICER:Informatica:S:Zsxdcfv10*:S:EPELLICER@general.san-gva.es:/bin/bash:OU=Informatica-usuarios,OU=Informatica:GG-Dep-Informatica
+RODRIGO:GALLEGO:RGALLEGO:Informatica:S:Zsxdcfv10*:S:RGALLEGO@general.san-gva.es:/bin/bash:OU=Informatica-usuarios,OU=Informatica:GG-Dep-Informatica
+JOHANN:AGUILAR:JAGUILAR:Enfermeria:S:Zsxdcfv10*:S:JAGUILAR@general.san-gva.es:/bin/bash:OU=Enfermeria-usuarios,OU=Enfermeria:GG-Dep-Enfermeria
+PEPE:SANCHO:PSANCHO:Enfermeria:S:Zsxdcfv10*:S:PSANCHO@general.san-gva.es:/bin/bash:OU=Enfermeria-usuarios,OU=Enfermeria:GG-Dep-Enfermeria
+SARA:ZAMBUJO:SZAMBUJO:Comunicacion-Prensa:S:Zsxdcfv10*:S:SZAMBUJO@general.san-gva.es:/bin/bash:OU=Comunicacion-Prensa-usuarios,OU=Comunicacion-Prensa:GG-Dep-Comunicacion-Prensa
+ISABEL:RUIZ:IRUIZ:Comunicacion-Prensa:S:Zsxdcfv10*:S:IRUIZ@general.san-gva.es:/bin/bash:OU=Comunicacion-Prensa-usuarios,OU=Comunicacion-Prensa:GG-Dep-Comunicacion-Prensa
+FRANCISCO:COELLO:FCOELLO:Comunicacion-Prensa:S:Zsxdcfv10*:S:FCOELLO@general.san-gva.es:/bin/bash:OU=Comunicacion-Prensa-usuarios,OU=Comunicacion-Prensa:GG-Dep-Comunicacion-Prensa
+BASILIO:PUJOL:BPUJOL:Comunicacion-Prensa:S:Zsxdcfv10*:S:BPUJOL@general.san-gva.es:/bin/bash:OU=Comunicacion-Prensa-usuarios,OU=Comunicacion-Prensa:GG-Dep-Comunicacion-Prensa
+MARIO:JUAN:MJUAN:Comunicacion-Prensa:S:Zsxdcfv10*:S:MJUAN@general.san-gva.es:/bin/bash:OU=Comunicacion-Prensa-usuarios,OU=Comunicacion-Prensa:GG-Dep-Comunicacion-Prensa

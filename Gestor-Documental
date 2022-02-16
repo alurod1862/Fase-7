@@ -1,0 +1,32 @@
+#!/bin/bash
+
+#cd datos
+#mkdir Dep-Alergologia
+#mkdir Dep-Informatica
+#mkdir Dep-Enfermeria
+#mkdir Dep-Comunicacion-Prensa
+
+
+#chmod 777 Dep*
+
+
+setfacl -m g:3000023:rwx /datos/Dep-Alergologia
+setfacl -m g:3000024:rx /datos/Dep-Alergologia
+setfacl -m g:3000025:rx /datos/Dep-Alergologia
+setfacl -m g:3000026:rx /datos/Dep-Alergologia
+
+setfacl -m g:3000024:rwx /datos/Dep-Informatica
+setfacl -m g:3000023:rx /datos/Dep-Informatica
+setfacl -m g:3000025:rx /datos/Dep-Informatica
+setfacl -m g:3000026:rx /datos/Dep-Informatica
+
+setfacl -m g:3000026:rwx /datos/Dep-Enfermeria
+setfacl -m g:3000023:rx /datos/Dep-Enfermeria
+setfacl -m g:3000024:rx /datos/Dep-Enfermeria
+setfacl -m g:3000025:rx /datos/Dep-Enfermeria
+
+setfacl -m g:3000025:rwx /datos/Dep-Comunicacion-Prensa
+setfacl -m g:3000023:rx /datos/Dep-Comunicacion-Prensa
+setfacl -m g:3000024:rx /datos/Dep-Comunicacion-Prensa
+setfacl -m g:3000026:rx /datos/Dep-Comunicacion-Prensa
+
